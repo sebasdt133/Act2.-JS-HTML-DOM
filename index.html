@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Tarjeta Presentación</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="tarjeta" id="tarjetaInicial">
+            <div class="info">
+                <h2 id="nombrerepresentante">Aquí va el nombre</h2>
+                <p id="puestorepresentante">Aquí va el puesto</p>
+            </div>
+            <button class="editar" id="editar">Editar</button>
+        </div>
+        <div class="formulario" id="formulario" style="display:none;">
+            <input type="text" id="nombre" placeholder="Escriba su nombre">
+            <input type="text" id="puesto" placeholder="Escriba su puesto">
+            <button id="guardar" class="mostrar">Guardar</button>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
